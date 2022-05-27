@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
-import SignInComponent from "./SignInComponent";
+import SignUpComponent from "./SignUpComponent";
 
 class RootComponent extends React.Component {
   
@@ -12,7 +12,7 @@ class RootComponent extends React.Component {
               exact
               path={"/signin"}
               render={() => {
-                return <SignInComponent />;
+                return <SignUpComponent />;
               }}
             />
           </Switch>
